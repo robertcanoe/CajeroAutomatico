@@ -14,7 +14,7 @@ int leerEntero(const std::string& mensaje) {
 
     while (true) {
         std::cout << mensaje;
-        std::getline(std::cin, entrada); // Leer toda la línea como string
+        std::getline(std::cin, entrada);
 
         // Si la entrada está vacía (solo Enter), pedir de nuevo
         if (entrada.empty()) {
