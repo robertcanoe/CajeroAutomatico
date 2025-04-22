@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1745280082 source:/home/robertcano/Desktop/CajeroAutomatico/main.cpp
+	"CuentaBancaria.hpp"
+	"Cajero.hpp"
+	"Utils.hpp"
+	<iostream>
+	<iomanip>
+
+1745280183 /home/robertcano/Desktop/CajeroAutomatico/CuentaBancaria.hpp
+	<string>
+	"Dinero.hpp"
+
+1745280059 /home/robertcano/Desktop/CajeroAutomatico/Dinero.hpp
+
+1745280486 /home/robertcano/Desktop/CajeroAutomatico/Cajero.hpp
+	"CuentaBancaria.hpp"
+
+1745280465 /home/robertcano/Desktop/CajeroAutomatico/Utils.hpp
+	<string>
+
