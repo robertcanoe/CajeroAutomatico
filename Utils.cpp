@@ -8,6 +8,18 @@ void limpiarBuffer() {
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
+
+int clean_terminal() {
+    #ifdef _WIN32
+        system("cls"); 
+    #else
+        system("clear");
+    #endif
+    return 0;
+}
+
+
+
 int leerEntero(const std::string& mensaje) {
     std::string entrada;
     int valor;

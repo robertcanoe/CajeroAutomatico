@@ -19,7 +19,7 @@ int main() {
         do {
             mostrarMenu();
             opcion = leerEntero("");
-
+            clean_terminal();
             switch (opcion) {
             case 1:
                 std::cout << "Saldo actual: " << std::fixed << std::setprecision(2)

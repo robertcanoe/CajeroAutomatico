@@ -1,6 +1,7 @@
 #include "CuentaBancaria.hpp"
 #include <iostream>
 #include <iomanip>
+#include <cstdlib>
 
 CuentaBancaria::CuentaBancaria(std::string nombre, int pinInicial, double saldoInicial)
     : titular(nombre), pin(pinInicial), saldo(saldoInicial) {
